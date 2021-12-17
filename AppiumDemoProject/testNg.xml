@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JoyScore Mobile App Automation Framework">
+
+	<listeners>
+		<listener class-name="Utilities.Reporting" />
+	</listeners>
+
+
+	<test name="JoyScore App Reporting">
+		
+		<classes>
+			<class name="tests.TestCase1_Login_App" />
+			<class name="tests.TestCase2_SignUp_App" />
+			<class name="tests.TestCase3_LoginScreen_Labels" />
+			<class name="tests.TestCase4_Dashboard_Screen" />
+			<class name="tests.TestCase5_Profile_Tab" />
+			<class name="tests.TestCase6_Explore_Tab" />
+			<class name="tests.TestCase7_Journey_Tab" />
+		</classes>
+
+	</test>
+
+</suite>
