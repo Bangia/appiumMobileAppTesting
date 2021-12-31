@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TestCase1_Login_App">
+      <class name="tests.TestCase2_SignUp_App">
         <methods>
           <include name="teardown"/>
-          <include name="Login_By_Facebook"/>
-          <include name="LoginForm_Validation"/>
+          <include name="SignUp_New_Account"/>
           <include name="setup"/>
-          <include name="Login_By_Email"/>
         </methods>
-      </class> <!-- tests.TestCase1_Login_App -->
+      </class> <!-- tests.TestCase2_SignUp_App -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

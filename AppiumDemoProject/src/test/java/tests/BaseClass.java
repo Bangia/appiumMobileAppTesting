@@ -28,7 +28,7 @@ public class BaseClass {
 			dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Redmi Note 10 Pro Max");
 			dc.setCapability(MobileCapabilityType.UDID, "4pcms8tw4hhui7gq");
 			dc.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
-			dc.setCapability(MobileCapabilityType.APP, "C:\\Users\\Nitin\\Desktop\\app-debug.apk");
+			dc.setCapability(MobileCapabilityType.APP, "C:\\Users\\Nitin\\Desktop\\app-debugNew.apk");
 			dc.setCapability("autoAcceptAlerts", "true"); 
 			dc.setCapability("no",true);
 	        dc.setCapability("newCommandTimeout", 100000);
