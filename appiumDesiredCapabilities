@@ -5,9 +5,10 @@ Appium Android desired capabilities
   "appium:deviceName": "Redmi Note 10 Pro",
   "appium:app": "/Users/rst/Downloads/app-debug.apk",
   "appium:UDID": "4pcms8tw4hhui7gq",
-  "appium:autoAcceptAlerts": true,
+  "appium:autoAcceptAlerts": false,
   "platformName": "Android",
-  "appium:automationName": "uiautomator2"
+  "appium:automationName": "UiAutomator2",
+  "appium:autoGrantPermissions": true
 }
 
 Appium IOS desired capabilities:
