@@ -25,3 +25,16 @@ Appium IOS desired capabilities:
   "appium:noReset": true,
   "appium:bundleId": "com.app.joyscore"
 }
+
+
+>>Some Useful links : Appium can not start automator2 server on the real device #7069
+>>LINK : https://github.com/appium/appium/issues/7069 : 
+>>This worked fine for me.
+
+Make sure appium server is not executing.
+Connect your android device with USB, also verify that device is connected properly by using command: adb devices
+Execute below commands:
+adb uninstall io.appium.uiautomator2.server
+adb uninstall io.appium.uiautomator2.server.test
+Start appium server
+Start executing appium test cases
