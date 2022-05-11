@@ -1,0 +1,26 @@
+Appium Android desired capabilities
+
+{
+  "appium:platformVersion": "11",
+  "appium:deviceName": "Redmi Note 10 Pro",
+  "appium:app": "/Users/rst/Downloads/app-debug.apk",
+  "appium:UDID": "4pcms8tw4hhui7gq",
+  "appium:autoAcceptAlerts": true,
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2"
+}
+
+Appium IOS desired capabilities:
+
+{
+  "platformName": "iOS",
+  "appium:platformVersion": "15.2",
+  "appium:deviceName": "iPhone 7",
+  "appium:automationName": "XCUITest",
+  "appium:app": "/Applications/JoyScoreMain/JoyScore.ipa",
+  "appium:udid": "1fca68733d6f75f7bcf40ab2d28a647ead6a2d7a",
+  "appium:xcodeOrgId": "7JDBDG8KA2",
+  "appium:xcodeSigningId": "iPhone Developer",
+  "appium:noReset": true,
+  "appium:bundleId": "com.app.joyscore"
+}
